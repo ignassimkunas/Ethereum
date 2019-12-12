@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Owner</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
+  <script src="./node_modules/web3/dist/web3.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-4 sec" id="seller">
+        <p>SELLER</p>
+        <p id="data"></p>
+        <input id="orderPriceInput"type="number" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Order Price" style="display: none;">
+        <input id="shipmentPriceInput"type="number" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Shipment Price" style="display: none;">
+        <button class="btn btn-secondary" id="priceBtn" style="display: none;">Send Price</button> 
+      </div>
+      <div class="col-4 sec" id="buyer">
+        <p>BUYER</p>
+        <input id="orderNum"type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Order ammount">
+        <p id="fullPrice" style="display: none;">FULL PRICE</p>
+        <button class="btn btn-secondary" id="btn">Order</button> 
+      </div>
+      <div class="col-4 sec" id="courier">
+        <p>Courier</p>
+        <p id="courierData"></p>
+        <button id="courierButton" class="btn btn-secondary">DELIVER</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+    
+    //
+    //paklaust ar atskiri page'ai turi būt 
+    
+    
+    
+  </script>
+  <script type="text/javascript" src="abi.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</html>

@@ -1,0 +1,27 @@
+.row{
+	margin-top: 10%;
+}
+.sec{
+	width: 100%;
+	margin: auto;
+}
+#courierData {
+	display: none;
+}
+#courierDeliver {
+	display: none;
+}
+p{
+	text-align: center;
+	font-family: 'Solway', serif;
+	font-size: 2em;
+
+}
+input[type=text]{
+	margin-top: 5%;
+}
+.btn{
+	margin-top: 4%;
+	width: 100%;
+	font-family: 'Solway', serif;
+}
