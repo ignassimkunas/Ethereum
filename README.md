@@ -18,3 +18,9 @@
 - Pirkėjas gavęs pilną kainą sumoka pardavėjui.
 - Pardavėjas gavęs apmokėjimą išsiunčia sąskaitą ir leidžia kurjeriui išvežti užsakymą.
 - Kurjeriui pristačius, pardavėjas sumoka kurjeriui siuntimo kainą.
+
+## Using:
+
+- MetaMask Chrome plugin.
+- Remix online IDE.
+- Web3 API.
